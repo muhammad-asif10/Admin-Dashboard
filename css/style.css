@@ -11,7 +11,7 @@ body{
 .container{
     /* background-color: var(--primary-color); */
     /* display: flex; */
-    /* padding: 10px; */
+    padding: 10px;
     /* gap: 20px; */
 }
 .side-bar{
