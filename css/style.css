@@ -1,0 +1,13 @@
+:root{
+    --primary-color: rgb(75, 160, 230);
+    --secondary-color: black;
+}
+body{
+    width: 100%;
+}
+
+.container{
+    background-color: var(--primary-color);
+    display: flex;
+    padding: 2px;
+}

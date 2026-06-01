@@ -4,13 +4,119 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dashboard"
     />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    
+    <main class="container">
+      <div class="side-bar">
+        <div class="nav-heading clickable">
+          <img
+            class="dash-image"
+            src="./icons/dashboard.svg"
+            alt="dashboard icon"
+          />Dashboard
+        </div>
+        <div class="nav-bar">
+          <ul class="nav-list nav-styles">
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/home.svg"
+                alt="home icon"
+              />Home
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/profile.svg"
+                alt="account icon"
+              />Profile
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/messages.svg"
+                alt="message icon"
+              />Messages
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/history.svg"
+                alt="history icon"
+              />History
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/tasks.svg"
+                alt="tasks icon"
+              />Tasks
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/community.svg"
+                alt="communities icon"
+              />Communities
+            </li>
+          </ul>
+        </div>
+        <div class="setting-bar">
+          <ul class="setting-list nav-styles">
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/settings.svg"
+                alt="settings icon"
+              />Settings
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/support.svg"
+                alt="support icon"
+              />Support
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/privacy.svg"
+                alt="privacy icon"
+              />Privacy
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header">
+        <div class="serach">
+          <img src="icons/search.svg" alt="" />
+          <input type="search" value="" />
+          <img src="icons/notifications.svg" alt="">
+          <img src="icons/profile.svg" alt=""> Muhammad Asif
+        </div>
+        <div class="bio">
+            <p>Hi there</p>
+            <img src="icons/profile.svg" alt="">
+            <p>Muhammad Asif (@asif)</p>
+            <button id="new">New</button>
+            <button id="upload">Upload</button>
+            <button id="share">Share</button>
+        </div>
+      </div>
+      <div class="my-project">
+        <div class="project">
+            <h3>Super Cool Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsam temporibus unde nulla totam in voluptate nobis laborum nemo natus.</p>
+            <img src="icons/star.svg" alt="">
+            <img src="icons/eye.svg" alt="">
+            <img src="icons/branch.svg" alt="">
+        </div>
+      </div>
+    </main>
   </body>
 </html>
